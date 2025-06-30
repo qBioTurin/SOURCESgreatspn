@@ -1019,9 +1019,9 @@ ifdef HAS_LP_SOLVE_LIB
   RGMEDD3_LDFLAGS := $(RGMEDD3_LDFLAGS) $(LINK_LP_SOLVE_LIB)
 endif
 
-ifdef HAS_MEDDLY_LIB
-  TARGETS += RGMEDD3
-endif
+#ifdef HAS_MEDDLY_LIB
+#  TARGETS += RGMEDD3
+#endif
 
 #### RGMEDD version 4 ########################################
 
@@ -1200,11 +1200,11 @@ ifdef HAS_LP_SOLVE_LIB
   RGMEDD5_LDFLAGS := $(RGMEDD5_LDFLAGS) $(LINK_LP_SOLVE_LIB) 
 endif
 
-ifdef HAS_MEDDLY_LIB
-	ifdef HAS_SPOT_LIB
-		TARGETS += RGMEDD5
-	endif
-endif
+#ifdef HAS_MEDDLY_LIB
+#	ifdef HAS_SPOT_LIB
+#		TARGETS += RGMEDD5
+#	endif
+#endif
 
 ###################################################################################
 
